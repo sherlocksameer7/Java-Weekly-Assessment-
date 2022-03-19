@@ -12,11 +12,11 @@ abstract class Diff_Shapes
     {
         double length;
         double breadth;
-        Rectangle(double length, double breadth)
+        Rectangle(double len, double br)
 
         {
-            this.length = length;
-            this.breadth = breadth;
+            this.length = len;
+            this.breadth = br;
         }
 
         double get_value_of_parameters()
@@ -49,10 +49,10 @@ abstract class Diff_Shapes
 
     {
         double radius;
-        Circle(double radius)
+        Circle(double rad)
 
         {
-            this.radius = radius;
+            this.radius = rad;
         }
 
         double get_value_of_parameters()
@@ -77,11 +77,11 @@ abstract class Diff_Shapes
 
 
 
-            System.out.println("Rectangle Area : " + rec_value.get_value_of_parameters());
+            System.out.println("Rectangle Value of Area : " + rec_value.get_value_of_parameters());
 
-            System.out.println("Square Area : " + sqr_value.get_value_of_parameters());
+            System.out.println("Square Value of Area : " + sqr_value.get_value_of_parameters());
 
-            System.out.println("Circle Area : " + cir_value.get_value_of_parameters());
+            System.out.println("Circle Value of Area : " + cir_value.get_value_of_parameters());
 
         }
 }
